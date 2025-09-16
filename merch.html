@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SirSnuggles - Nieuwe Pagina</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Comfortaa', sans-serif;
+            margin: 0;
+            background: linear-gradient(to right, #8A2BE2, #00BFFF);
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            margin: 20px;
+        }
+
+        .image-center {
+            max-width: 300px; /* Afbeelding is kleiner gemaakt */
+            height: auto;
+            border-radius: 0; /* De border-radius is verwijderd */
+            box-shadow: none; /* De box-shadow is verwijderd */
+            margin-bottom: 20px;
+        }
+
+        .title {
+            font-size: 2em;
+            margin-bottom: 5px;
+            color: #8A2BE2;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #555;
+            margin-top: 0;
+        }
+
+        .nav-link-home {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="index.html" class="nav-link-home">< Back to homepage</a>
+
+    <div class="container">
+        <img src="images/404.png" alt="404 image" class="image-center">
+        <h1 class="title">Not available</h1>
+        <p class="subtitle">This service is currently not available (yet)</p>
+    </div>
+
+</body>
+</html>
