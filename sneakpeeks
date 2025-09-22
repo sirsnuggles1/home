@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SirSnuggles - Sneakpeeks</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Comfortaa', sans-serif;
+            margin: 0;
+            background: linear-gradient(to right, #8A2BE2, #00BFFF);
+            color: #333;
+            min-height: 100vh;
+        }
+
+        /* Navigation Bar */
+        .nav-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background-color: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .nav-bar .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        .nav-links {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-links li a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 15px;
+            transition: color 0.3s;
+        }
+
+        .nav-links li a:hover {
+            color: #ddd;
+        }
+
+        /* Main Hero Section with Banner */
+        .hero-banner {
+            width: 100%;
+            height: 400px;
+            background-image: url('images/banner.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .main-content {
+            background-color: white;
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .section-title {
+            font-size: 2em;
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+
+        /* Video Styles */
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            justify-items: center;
+            margin-bottom: 50px;
+        }
+        
+        .video-card {
+            max-width: 300px;
+            width: 100%;
+            padding-bottom: 168.75px; 
+            position: relative;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .video-card iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Discord Button Section */
+        .discord-section {
+            background-color: #7289DA;
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-top: 40px;
+        }
+        
+        .discord-section p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .discord-btn {
+            background-color: #556094;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        
+        .discord-btn:hover {
+            background-color: #6778b7;
+        }
+        
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 30px 20px;
+            background-color: rgba(0, 0, 0, 0.2);
+            color: white;
+            font-size: 14px;
+            margin-top: 50px;
+        }
+
+        .footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="nav-bar">
+        <span class="logo">SirSnuggles</span>
+        <ul class="nav-links">
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="merch.html">Merch</a></li>
+            <li><a href="photo-album.html">Photo album</a></li>
+            <li><a href="https://discord.com/invite/wwU6qvSEy3">Join the Comunity</a></li>
+            <li><a href="about-me.html">About me</a></li>
+            <li><a href="my-videos.html">My video's</a></li>
+            <li><a href="sneakpeeks.html">Sneakpeaks</a></li>
+            <li><a href="#">The caracters</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero-banner"></div>
+
+    <div class="main-content">
+        <h2 class="section-title">Sneakpeeks</h2>
+        <div class="video-grid">
+            <div class="video-card">
+                <iframe src="https://www.youtube.com/embed/Bz2GCaTTkYA" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+            <div class="video-card">
+                <iframe src="https://www.youtube.com/embed/SmnAoCSZjcY" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+            <div class="video-card">
+                </div>
+        </div>
+
+        <div class="discord-section">
+            <p>Wil je meer sneakpeeks zien of meepraten over de nieuwste video's? Word lid van onze Discord-community!</p>
+            <a href="https://discord.com/invite/wwU6qvSEy3" class="discord-btn">Join de community</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 SirSnuggles</p>
+        <p>Site: I coded this site myself | Sitedomain: Github</p>
+    </div>
+
+</body>
+</html>
