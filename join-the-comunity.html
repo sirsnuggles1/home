@@ -61,6 +61,22 @@
             color: #333;
             font-weight: bold;
         }
+
+        .external site-btn {
+            background: linear-gradient(to right, #8A2BE2, #00BFFF);
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 15px;
+            font-weight: bold;
+            transition: transform 0.3s ease;
+        }
+        
+        .external site-btn:hover {
+            transform: scale(1.05);
+        }
     </style>
 </head>
 <body>
@@ -68,6 +84,7 @@
         <img src="images/external-site.png" alt="404 image" class="image-center">
         <h1 class="title">Do you want to leave this site?</h1>
         <p class="subtitle">You go to https://discord.com/</p>
+        <a href="https://discord.gg/xbTS3HqS8f" class="external site-btn">Go to external site</a>
     </div>
 </body>
 </html>
