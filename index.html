@@ -284,6 +284,25 @@
         text-align: center;
     }
 }
+
+            body {
+    font-family: 'Comfortaa', sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #8A2BE2, #00BFFF, #33A1FF);
+    background-size: 400% 400%;
+    color: #333;
+    min-height: 100vh;
+    animation: backgroundAnimation 2s ease forwards;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
     </style>
 </head>
 <body>
